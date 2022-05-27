@@ -1,4 +1,7 @@
-package BridgeDesignPattren;
+package BridgeDesignPattren.soil;
+
+
+import BridgeDesignPattren.plant.*;
 
 abstract public class Soil {
     public abstract void minarals();

@@ -1,10 +1,14 @@
-package FlyWeightDesignPattren;
+package FlyWeightDesignPattren.Factory;
+
+import FlyWeightDesignPattren.Game.HitmanPlayer;
+import FlyWeightDesignPattren.Game.Player;
+import FlyWeightDesignPattren.Game.SherlockHolmesPlayer;
 
 import java.util.HashMap;
 
 public class PlayerFactory {
 
-    private static HashMap<String,Player> map=new HashMap<>();
+    private static HashMap<String, Player> map=new HashMap<>();
     public static Player createPlayer(String type){
         Player p=null;
         if(map.get(type)!=null){

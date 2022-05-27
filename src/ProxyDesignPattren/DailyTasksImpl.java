@@ -1,8 +1,8 @@
 package ProxyDesignPattren;
 
-public class DoctorImpl implements Doctor{
+public class DailyTasksImpl implements DailyTasks {
     @Override
-    public void meet(String dayTime) {
-        System.out.println("Meeting client "+dayTime);
+    public void meetDoctor(String dayTime) {
+        System.out.println("Meeting patient on "+dayTime);
     }
 }

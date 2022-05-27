@@ -1,4 +1,4 @@
-package BridgeDesignPattren;
+package BridgeDesignPattren.plant;
 
 public class Apple extends FruityPlant{
     public Apple()

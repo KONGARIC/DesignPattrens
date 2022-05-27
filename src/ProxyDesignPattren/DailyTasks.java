@@ -1,5 +1,5 @@
 package ProxyDesignPattren;
 
-public interface Doctor {
-    public void meet(String dayTime);
+public interface DailyTasks {
+    public void meetDoctor(String dayTime);
 }

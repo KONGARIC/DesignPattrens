@@ -1,6 +1,8 @@
-package ChainOfResponsibilityDesignPattern;
+package ChainOfResponsibilityDesignPattern.Classes;
 
-public class Level3 implements Game{
+import ChainOfResponsibilityDesignPattern.Interfaces.Game;
+
+public class Level3 implements Game {
     Game nextLevel;
     @Override
     public void play() {

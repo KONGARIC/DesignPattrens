@@ -1,6 +1,6 @@
-package FlyWeightDesignPattren;
+package FlyWeightDesignPattren.Game;
 
-public class HitmanPlayer implements Player{
+public class HitmanPlayer implements Player {
 
     private String weapon;
     private String job;

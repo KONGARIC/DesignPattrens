@@ -1,6 +1,8 @@
-package ChainOfResponsibilityDesignPattern;
+package ChainOfResponsibilityDesignPattern.Classes;
 
-public class Level1 implements Game{
+import ChainOfResponsibilityDesignPattern.Interfaces.Game;
+
+public class Level1 implements Game {
 
     private Game nextLevel;
 

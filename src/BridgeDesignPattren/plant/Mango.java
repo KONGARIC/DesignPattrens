@@ -1,4 +1,4 @@
-package BridgeDesignPattren;
+package BridgeDesignPattren.plant;
 
 public class Mango extends FruityPlant{
     public Mango()

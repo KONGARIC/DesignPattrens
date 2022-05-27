@@ -1,4 +1,6 @@
-package ChainOfResponsibilityDesignPattern;
+package ChainOfResponsibilityDesignPattern.Classes;
+
+import ChainOfResponsibilityDesignPattern.Interfaces.Game;
 
 public class GamePlay {
 

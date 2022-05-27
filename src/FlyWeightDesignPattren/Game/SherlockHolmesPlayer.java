@@ -1,6 +1,8 @@
-package FlyWeightDesignPattren;
+package FlyWeightDesignPattren.Game;
 
-public class SherlockHolmesPlayer implements Player{
+import FlyWeightDesignPattren.Game.Player;
+
+public class SherlockHolmesPlayer implements Player {
 
     private String job;
     private String weapon;

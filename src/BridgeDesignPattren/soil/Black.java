@@ -1,4 +1,6 @@
-package BridgeDesignPattren;
+package BridgeDesignPattren.soil;
+
+import BridgeDesignPattren.plant.FruityPlant;
 
 public class Black extends Soil{
     public void minarals()

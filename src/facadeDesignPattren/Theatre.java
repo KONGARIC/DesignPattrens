@@ -5,23 +5,23 @@ import java.util.List;
 
 public class Theatre {
 
-    List<String> movies=new ArrayList<String>();
+    List<String> theatres=new ArrayList<String>();
     Theatre(){
-        movies.add("KGF2");
-        movies.add("RRR");
-        movies.add("Beast");
+        theatres.add("Inox");
+        theatres.add("Imax");
+        theatres.add("Asian");
     }
-    public void getMovies(){
-        for(String movie:movies){
-            System.out.println(movie);
+    public void getTheatres(){
+        for(String theatre:theatres){
+            System.out.println(theatre);
         }
     }
-    public boolean movieAvailabe(String movie){
-        if(movies.contains(movie)){
-            System.out.println("enjoy Movie booked");
+    public boolean theatreAvailabe(String theatre){
+        if(theatres.contains(theatre)){
+            System.out.println("In "+theatre+" theatre ");
             return true;
         }
-        System.out.println("sorry Movie not available");
+        System.out.println(theatre+" not available");
         return false;
     }
 }

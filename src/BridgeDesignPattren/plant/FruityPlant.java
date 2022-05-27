@@ -1,4 +1,4 @@
-package BridgeDesignPattren;
+package BridgeDesignPattren.plant;
 
 abstract public class FruityPlant {
     int maxAge=0;
